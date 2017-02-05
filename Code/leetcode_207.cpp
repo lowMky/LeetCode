@@ -1,3 +1,5 @@
+//给每门课程向前驱课程连一条有向边，然后进行拓扑排序
+
 class Solution {
 public:
     bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) {
